@@ -1,0 +1,629 @@
+body{
+    background-color: white;
+}
+
+
+
+header nav *{
+    float: left;
+  
+}
+
+header  img{
+    width: 10%;
+    height: 50px;
+}
+
+header nav ul li {
+   
+    float: left;
+    width: 10%;
+    margin-left: 4em;
+    list-style-type: none;
+    
+   
+}
+
+header nav ul li a{
+    color: rgb(33, 33, 33);
+    text-decoration: none;
+}
+
+header nav ul li:hover{
+    background-color: rgb(245, 247, 244);
+  
+}
+
+
+header nav span{
+    float: right;
+    margin-top: 0.7em;
+    margin-right: 10em;
+    color: black;
+}
+
+
+
+@media all and (max-width: 600px){
+    header nav ul li{
+        float: left;
+        width: 80%;
+        margin: 0;
+    }
+}
+
+.booking a{
+    border: 1px solid rgb(33, 33, 33);
+    padding: 8px 10px;
+    text-decoration: none;
+    background-color: rgba(33, 33, 33, 0.9);
+    color: white;
+}
+
+.booking a:hover{
+    background-color: rgb(244, 246, 243);
+    color: rgb(33, 33, 33);
+    border: 2px solid rgb(33, 33, 33);
+}
+
+main {
+    background-image: url(" https://www.thelist.com/img/gallery/hair-colors-youll-be-asking-for-in-2023/l-intro-1667389307.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+   
+}
+
+
+main  h1{
+    color: rgb(33, 33, 33);
+    margin-left: 3em;
+    margin-top: 3em;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+}
+
+main p{
+    margin-left: 5em;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+
+main > span{
+    margin-left: em;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(240, 150, 159);
+    padding: 10px;
+}
+
+
+main span a{
+    text-decoration: none;
+    color: white;
+}
+
+main span:hover{
+    background-color: rgb(102, 170, 189);
+    border: 2px solid white;
+}
+
+@media all and (max-width: 600px) {
+    main{
+        background-size: contain;
+        width: 95%;
+        margin-left: 0.5em;
+    }
+    
+    main p{
+        color: rgb(33, 33, 33);
+        margin-top: 0.5em;
+    }
+
+    main span{
+        width: 80%;
+        margin-left: 2em;
+    }
+}
+
+.middle{
+    background-color: rgb(223, 193, 118);
+    color: black;
+    padding: 10px 5px;
+   margin-right: 40em;
+    margin-left: 5em;
+    margin-top: 0.5em;
+    font-size: 20px;
+}
+
+.middle  span ~ span{
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+@media all and (max-width: 600px){
+    .middle{
+        float: left;
+        width: 80%;
+        margin: 0;
+        margin-top: -3em;
+        margin-left: 1.5em;
+    }
+
+    .middle p{
+        margin-left: 1em;
+    }
+
+    .middle span{
+        margin-left: 1em;
+    }
+}
+
+
+.services{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5em;
+    color: rgb(211, 164, 103);
+}
+
+section article{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   color: rgb(33, 33, 33);
+   background-color: rgb(244, 246, 243);
+   margin-top: 5em;
+}
+
+article i{
+   
+    font-size: 4em;
+    color: rgb(219, 178, 124);
+    margin-top: 1em;
+}
+
+article p{
+    margin-left: -1em;
+    font-size: 20px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+article h2{
+    font-size: 25px;
+    margin-top: 1em;
+}
+
+.clients{
+    font-size: 25px;
+    color: rgb(33, 33, 33);
+}
+
+@media all and (max-width: 600px){
+    .beauty{
+        float: left;
+        width: 100%;
+        margin: 0;
+        margin-top: 3em;
+    }
+
+    .beauty p{
+        margin: 0;
+        font-size: 18px;
+        margin-left: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .beauty h2{
+        margin-left: 2em;
+        margin-top: 1em;
+    }
+
+    #services{
+        margin: 0;
+        float: left;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .bear{
+        float: left;
+        width: 85%;
+        margin: 0;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+
+    .quality{
+        float: left;
+        width: 85%;
+        margin: 0;
+        margin-top: 1em;
+        margin-left: 1em;
+    }
+
+    .products{
+        float: left;
+        width: 85%;
+        margin: 0;
+        margin-top: 1em;
+        margin-left: 1em;
+    }
+}
+
+
+.bob{
+    float: left;
+    margin-top: 5em;
+}
+
+.bob img{
+    float: left;
+    width: 40%;
+    margin: -20em 0 0 52em;
+}
+
+.bob h2,p,span{
+    margin: 0 0 0 6em;
+}
+
+.bob h2{
+    margin-top: 5em;
+    margin-left: 3.5em;
+    font-size: 25px;
+    color: rgb(50, 31, 86);
+}
+
+.bob p{
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-left: 4.5em;
+}
+
+.more{
+    background-color: rgb(162, 138, 193);
+    color: white;
+    padding: 10px;
+
+}
+
+.more:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+@media all and (max-width: 600px){
+    .bob{
+        float: left;
+        width: 100%;
+        margin: 0;
+        margin-top: 3em;
+    }
+
+    .bob p,h2,span{
+        float: left;
+        width: 80%;
+        margin: 0;
+        margin-top: 1em;
+        margin-left: 1em;
+        font-size: 18px;
+    }
+
+    .bob h2{
+        float: left;
+        width: 100%;
+        margin: 0;
+        margin-left: 0.7em;
+    }
+
+    .bob .more{
+        width: 50%;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+
+    .bob img{
+        float: left;
+        width: 85%;
+        margin: 0;
+        margin-top: 1em;
+        margin-left: 1.3em;
+    }
+}
+
+hr{
+    width: 100%;
+}
+
+.sect1 , .sect2 , .sect3{
+    float: left;
+    width: 30%;
+    margin-left: 2em;
+    margin-top: 5em;
+}
+
+.sect1 img{
+    height: 260px;
+    margin-left: 8em;
+}
+
+.sect2 img{
+    height: 260px;
+    margin-left: 5em;
+}
+
+.sect3 img{
+    height: 260px;
+}
+
+.sect1 h4{
+    margin-left: 8em;
+    margin-bottom: -0.1em;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.sect2 h4{
+    margin-left: 6em;
+    margin-bottom: -0.1em;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.sect3 h4{
+    margin-left: 2em;
+    margin-bottom: -0.1em;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.sect1  span{
+    margin-left: 10em;
+}
+
+.sect3  span{
+    margin-left: 3em;
+}
+
+@media all and (max-width: 600px){
+    #stylist{
+        float: left;
+        width: 100%;
+        margin: 0;
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+
+    .sect1{
+        float: left;
+        width: 100%;
+        margin: 0;
+        margin-top: 2em;
+    }
+
+    .sect1 img{
+        float: left;
+        width: 70%;
+        margin: 0;
+    }
+
+    .sect1 h4{
+        float: left;
+        width: 80%;
+        margin: 0;
+        margin-top: 1em;
+        font-size: 18px;
+        font-weight: bolder;
+        margin: 0;
+        margin-right: 0;
+    }
+
+    .sect1 span{
+        float: left;
+        width: 80%;
+        margin: 0;
+        margin-top: 1em;
+        margin: 0;
+        margin-right: 0;
+    }
+
+    .sect2{
+        float: left;
+        width: 100%;
+        margin: 0;
+        margin-top: 2em;
+    }
+
+    .sect2 img{
+        float: left;
+        width: 70%;
+        margin: 0;
+    }
+
+    .sect2 h4{
+        float: left;
+        width: 80%;
+        margin: 0;
+        margin-top: 1em;
+        font-size: 18px;
+        font-weight: bolder;
+        margin: 0;
+        margin-right: 0;
+    }
+
+    .sect2 span{
+        float: left;
+        width: 80%;
+        margin: 0;
+        margin-top: 1em;
+        margin: 0;
+        margin-right: 0;
+    }
+
+    .sect3{
+        float: left;
+        width: 100%;
+        margin: 0;
+        margin-top: 2em;
+    }
+
+    .sect3 img{
+        float: left;
+        width: 70%;
+        margin: 0;
+    }
+
+    .sect3 h4{
+        float: left;
+        width: 80%;
+        margin: 0;
+        margin-top: 1em;
+        font-size: 18px;
+        font-weight: bolder;
+        margin: 0;
+        margin-right: 0;
+    }
+
+    .sect3 span{
+        float: left;
+        width: 80%;
+        margin: 0;
+        margin-top: 1em;
+        margin: 0;
+        margin-right: 0;
+    }
+}
+
+.halo{
+    margin: 3em 8em 8em 8em;
+    background-image: url(https://topratedexperts.com/uploads/final.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+   
+}
+
+.halo h3{
+    margin-top: 3em;
+   margin-left: 4em;
+   font-size: 35px;
+   color: rgb(33, 33, 33);
+   margin-bottom: 1em;
+}
+
+
+
+.halo span a{
+    padding: 10px 20px;
+    background-color: rgba(33, 33, 33, 0.9);
+    color: white;
+    text-decoration: none;
+}
+
+.halo span a:hover{
+    background-color: rgb(244, 246, 243);
+    color: rgb(33, 33, 33);
+    border: 2px solid rgb(33, 33, 33);
+}
+
+@media all and (max-width: 600px){
+    .halo{
+        background-size: contain;
+        width: 85%;
+        margin: 0;
+        margin-top: 2em;
+        margin-left: 1em;
+    }
+
+    .halo h3{
+        width: 100%;
+        margin: 0;
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items{
+    height: 40%;
+    margin: 10px;
+}
+
+.container .items img{
+    height: 300px;
+}
+
+.mayo h4{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(33, 33, 33);
+}
+
+.container{
+    background-color: rgb(247, 247, 245);
+    
+}
+
+@media all and (max-width: 600px){
+    .blonde img{
+        margin-top: 15em;
+        width: 350px;
+        
+    }
+
+    .container{
+        float: left;
+        width: 100%;
+        margin: 0;
+       
+    }
+
+    .red img{
+        width: 350px;
+        margin-top: -3em;
+    }
+
+    .lipGloss img{
+        width: 350px;
+        margin-top: -3em;
+    }
+
+    .mayo h4{
+        margin-bottom: 1em;
+    }
+}
+
+
+@media all and (max-width: 600px){
+    body{
+        margin: 0;
+        margin-right: 0;
+    }
+
+    hr{
+        width: 80%;
+    }
+
+    html{
+        margin: 0;
+        margin-right: 0;
+    }
+}
+
+
