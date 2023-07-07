@@ -3,35 +3,11 @@ body{
 }
 
 
-
-header nav *{
-    float: left;
-  
+header nav ul .abt a{
+    color: blue;
 }
-
-header  img{
-    width: 10%;
-    height: 50px;
-}
-
-header nav ul li {
-   
-    float: left;
-    width: 10%;
-    margin-left: 4em;
-    list-style-type: none;
-    
-   
-}
-
-header nav ul li a{
-    color: rgb(33, 33, 33);
-    text-decoration: none;
-}
-
-header nav ul li:hover{
-    background-color: rgb(245, 247, 244);
-  
+section nav div div ul li a:hover{
+    color: rgb(254, 105, 0) !important;
 }
 
 
@@ -42,22 +18,14 @@ header nav span{
     color: black;
 }
 
-
-
-@media all and (max-width: 600px){
-    header nav ul li{
-        float: left;
-        width: 80%;
-        margin: 0;
-    }
-}
-
 .booking a{
     border: 1px solid rgb(33, 33, 33);
     padding: 8px 10px;
     text-decoration: none;
     background-color: rgba(33, 33, 33, 0.9);
     color: white;
+    margin-top: -4em;
+   font-size: 18px  !important;
 }
 
 .booking a:hover{
@@ -66,20 +34,44 @@ header nav span{
     border: 2px solid rgb(33, 33, 33);
 }
 
+
+
+@media all and (max-width: 600px){
+    .booking{
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    section nav div div ul li a:hover{
+        color: blue !important;
+    }
+
+    section nav div div ul li .abot{
+        background-color: gray;
+    }
+
+  
+    
+}
+
+
+
 main {
     background-image: url(" https://www.thelist.com/img/gallery/hair-colors-youll-be-asking-for-in-2023/l-intro-1667389307.jpg");
     background-repeat: no-repeat;
     height: 600px;
     background-size: cover;
-   
+    margin-top: 1em !important;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 
 main  h1{
     color: rgb(33, 33, 33);
-    margin-left: 3em;
+    margin-left: 2em;
     margin-top: 3em;
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Playfair Display', serif;
     font-weight: bolder;
 }
@@ -114,18 +106,33 @@ main span:hover{
 @media all and (max-width: 600px) {
     main{
         background-size: contain;
+        width: 100%;
+        margin-left: 0.3em;
+        margin-right: 0;
+    }
+
+    .page{
         width: 95%;
-        margin-left: 0.5em;
+        margin-right: 0;
     }
     
     main p{
         color: rgb(33, 33, 33);
         margin-top: 0.5em;
+        margin-left: 2.5em;
+        font-size: 14px;
     }
 
     main span{
-        width: 80%;
+        width: 70%;
         margin-left: 2em;
+        margin-top: -1em;
+    }
+
+    main h1{
+        margin-top: 2em;
+        margin-left: 1em;
+        font-size: 40px;
     }
 }
 
@@ -137,12 +144,14 @@ main span:hover{
     margin-left: 5em;
     margin-top: 0.5em;
     font-size: 20px;
+    border: 2px dotted black;
 }
 
-.middle  span ~ span{
+.middle  span {
     background-color: white;
     color: black;
     padding: 5px;
+    margin-left: 0;
 }
 
 @media all and (max-width: 600px){
@@ -150,8 +159,9 @@ main span:hover{
         float: left;
         width: 80%;
         margin: 0;
-        margin-top: -3em;
-        margin-left: 1.5em;
+        margin-top: -7em;
+        margin-left: 2em;
+        margin-right: 0;
     }
 
     .middle p{
@@ -166,8 +176,8 @@ main span:hover{
 
 .services{
     text-align: center;
-    font-size: 35px;
-    margin-top: 5em;
+    font-size: 40px;
+    margin-top: 2em;
     color: rgb(211, 164, 103);
 }
 
@@ -178,13 +188,15 @@ section article{
    color: rgb(33, 33, 33);
    background-color: rgb(244, 246, 243);
    margin-top: 5em;
+   width: 70%;
+   margin-left: 12em;
 }
 
 article i{
    
     font-size: 4em;
-    color: rgb(219, 178, 124);
-    margin-top: 1em;
+    color: rgb(214, 166, 103);
+    margin-top: 0.5em;
 }
 
 article p{
@@ -197,6 +209,7 @@ article p{
 article h2{
     font-size: 25px;
     margin-top: 1em;
+    font-weight: bolder;
 }
 
 .clients{
@@ -207,21 +220,27 @@ article h2{
 @media all and (max-width: 600px){
     .beauty{
         float: left;
-        width: 100%;
+        width: 90%;
         margin: 0;
         margin-top: 3em;
+        margin-left: 1.7em;
+        margin-right: 0;
+    }
+
+    .beauty i{
+        margin-left: -0.5em;
     }
 
     .beauty p{
         margin: 0;
         font-size: 18px;
-        margin-left: 1em;
+        margin-left: 2em;
         margin-top: 1em;
         margin-bottom: 1em;
     }
 
     .beauty h2{
-        margin-left: 2em;
+        margin-left: 1em;
         margin-top: 1em;
     }
 
@@ -229,7 +248,7 @@ article h2{
         margin: 0;
         float: left;
         width: 100%;
-        margin-left: 0;
+        margin-left: -0.5em;
     }
 
     .bear{
@@ -260,22 +279,22 @@ article h2{
 
 .bob{
     float: left;
-    margin-top: 5em;
+   
 }
 
 .bob img{
     float: left;
     width: 40%;
-    margin: -20em 0 0 52em;
+    margin: -22em 0 0 50em;
 }
 
 .bob h2,p,span{
-    margin: 0 0 0 6em;
+    margin: 0 0 0 7em;
 }
 
 .bob h2{
     margin-top: 5em;
-    margin-left: 3.5em;
+    margin-left: 4em;
     font-size: 25px;
     color: rgb(50, 31, 86);
 }
@@ -283,7 +302,8 @@ article h2{
 .bob p{
     margin-top: 2em;
     margin-bottom: 3em;
-    margin-left: 4.5em;
+    margin-left: 6.5em;
+    font-size: 16px;
 }
 
 .more{
@@ -305,6 +325,7 @@ article h2{
         width: 100%;
         margin: 0;
         margin-top: 3em;
+        margin-right: 0;
     }
 
     .bob p,h2,span{
@@ -312,20 +333,21 @@ article h2{
         width: 80%;
         margin: 0;
         margin-top: 1em;
-        margin-left: 1em;
+        margin-left: 2em;
         font-size: 18px;
     }
 
     .bob h2{
         float: left;
-        width: 100%;
+        width: 80%;
         margin: 0;
-        margin-left: 0.7em;
+        margin-left: 1.5em;
+        font-size: 22px;
     }
 
     .bob .more{
         width: 50%;
-        margin-left: 1em;
+        margin-left: 2em;
         margin-top: 1em;
     }
 
@@ -346,39 +368,43 @@ hr{
     float: left;
     width: 30%;
     margin-left: 2em;
-    margin-top: 5em;
+    margin-top: 3em;
+    margin-bottom: 5em;
 }
 
 .sect1 img{
-    height: 260px;
+    height: 270px;
     margin-left: 8em;
+    width: 270px;
 }
 
 .sect2 img{
-    height: 260px;
+    height: 270px;
     margin-left: 5em;
+    width: 270px;
 }
 
 .sect3 img{
-    height: 260px;
+    height: 270px;
+    width: 270px;
 }
 
 .sect1 h4{
-    margin-left: 8em;
+    margin-left: 10em;
     margin-bottom: -0.1em;
     font-size: 18px;
     font-weight: bolder;
 }
 
 .sect2 h4{
-    margin-left: 6em;
+    margin-left: 8em;
     margin-bottom: -0.1em;
     font-size: 18px;
     font-weight: bolder;
 }
 
 .sect3 h4{
-    margin-left: 2em;
+    margin-left: 3em;
     margin-bottom: -0.1em;
     font-size: 18px;
     font-weight: bolder;
@@ -388,116 +414,129 @@ hr{
     margin-left: 10em;
 }
 
+.sect2  span{
+    margin-left: 8em;
+}
+
 .sect3  span{
     margin-left: 3em;
+}
+
+#stylist section span{
+    font-size: 18px;
+    background-color: rgb(163, 122, 99);
+    color: white;
+    padding: 3px 10px;
+    
+}
+
+#stylist section h4{
+    margin-bottom: 0.5em;
+   
+}
+
+#stylist h2{
+    font-size: 35px;
+    margin: 18em 0 0 5em;
+    color: rgb(163, 122, 99);
+    font-weight: bolder;
 }
 
 @media all and (max-width: 600px){
     #stylist{
         float: left;
-        width: 100%;
+        width: 80%;
         margin: 0;
         margin-top: 2em;
         margin-left: 3em;
+        margin-right: 0;
     }
 
     .sect1{
         float: left;
-        width: 100%;
+        width: 90%;
         margin: 0;
         margin-top: 2em;
     }
 
     .sect1 img{
         float: left;
-        width: 70%;
+        width: 100%;
         margin: 0;
     }
 
     .sect1 h4{
         float: left;
         width: 80%;
-        margin: 0;
-        margin-top: 1em;
+        margin: 1em 0 0 1em;
         font-size: 18px;
         font-weight: bolder;
-        margin: 0;
-        margin-right: 0;
     }
 
     .sect1 span{
         float: left;
-        width: 80%;
-        margin: 0;
-        margin-top: 1em;
-        margin: 0;
-        margin-right: 0;
+        width: 70%;
+        margin: 0 0 0 1em;
     }
 
     .sect2{
         float: left;
-        width: 100%;
+        width: 90%;
         margin: 0;
         margin-top: 2em;
     }
 
     .sect2 img{
         float: left;
-        width: 70%;
+        width: 100%;
         margin: 0;
     }
 
     .sect2 h4{
         float: left;
         width: 80%;
-        margin: 0;
-        margin-top: 1em;
+        margin: 1em 0 0 1em;
         font-size: 18px;
         font-weight: bolder;
-        margin: 0;
-        margin-right: 0;
     }
 
     .sect2 span{
         float: left;
-        width: 80%;
-        margin: 0;
-        margin-top: 1em;
-        margin: 0;
-        margin-right: 0;
+        width: 70%;
+        margin: 0 0 0 1em;
     }
 
     .sect3{
         float: left;
-        width: 100%;
+        width: 90%;
         margin: 0;
         margin-top: 2em;
     }
 
     .sect3 img{
         float: left;
-        width: 70%;
+        width: 100%;
         margin: 0;
     }
 
     .sect3 h4{
         float: left;
         width: 80%;
-        margin: 0;
-        margin-top: 1em;
+        margin: 1em 0 0 1em;
         font-size: 18px;
         font-weight: bolder;
-        margin: 0;
-        margin-right: 0;
     }
 
     .sect3 span{
         float: left;
-        width: 80%;
-        margin: 0;
-        margin-top: 1em;
-        margin: 0;
-        margin-right: 0;
+        width: 70%;
+        margin: 0 0 0 1em;
+    }
+
+    #stylist h2{
+        font-size: 30px;
+        margin: 1em 0 0 0;
+        
     }
 }
 
@@ -525,6 +564,7 @@ hr{
     background-color: rgba(33, 33, 33, 0.9);
     color: white;
     text-decoration: none;
+    margin-left: 2em;
 }
 
 .halo span a:hover{
@@ -536,18 +576,23 @@ hr{
 @media all and (max-width: 600px){
     .halo{
         background-size: contain;
-        width: 85%;
+        width: 90%;
         margin: 0;
         margin-top: 2em;
         margin-left: 1em;
+        margin-right: 0;
     }
 
     .halo h3{
-        width: 100%;
+        width: 90%;
         margin: 0;
-        margin-top: 2em;
+        margin-top: 0.5em;
         margin-left: 1em;
         margin-bottom: 1em;
+    }
+
+    .halo span{
+        margin-left: -1em;
     }
 }
 
@@ -558,6 +603,7 @@ hr{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 3em;
 }
 
 .items{
@@ -580,6 +626,11 @@ hr{
     
 }
 
+.blonde img{
+    width: 340px;
+    margin-left: -1em;
+}
+
 @media all and (max-width: 600px){
     .blonde img{
         margin-top: 15em;
@@ -589,9 +640,15 @@ hr{
 
     .container{
         float: left;
-        width: 100%;
+        width: 90%;
         margin: 0;
-       
+        margin-right: 0;
+    }
+
+    .container .items img{
+        width: 90%;
+        margin-left: 1em;
+        margin-right: 0;
     }
 
     .red img{
@@ -606,8 +663,16 @@ hr{
 
     .mayo h4{
         margin-bottom: 1em;
+         margin-top: -2em;
+    }
+
+    .lastOnes .items img{
+        width: 100%;
+        margin-left: 0em;
+        width: 333px;
     }
 }
+
 
 
 @media all and (max-width: 600px){

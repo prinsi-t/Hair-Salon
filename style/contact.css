@@ -1,0 +1,212 @@
+body{
+    background-color: rgb(242, 237, 230);
+}
+
+
+header h1{
+    font-size: 45px;
+    margin-top: 1em;
+    margin-left: 13em;
+    
+}
+
+
+header section{
+    background-color: rgb(213, 161, 142);
+    width: 40%;
+    margin-top: -20em;
+    margin-left: 45em;
+}
+
+
+header section p{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 1em;
+    margin-right: 2em;
+    display: block;
+    padding-top: 26px;
+}
+
+.salon{
+    width: 40%;
+    margin-top: 5em;
+    margin-left: 7em;
+}
+
+
+@media all and (max-width: 600px){
+    header{
+        width: 100%;
+        float: left;
+        margin: 0;
+        background-color: rgb(242, 237, 230);
+    }
+
+    header h1{
+        width: 100%;
+        float: left;
+        margin: 0.5em 0 0 1.5em;
+       
+    }
+
+    header .salon{
+        width: 95%;
+        float: left;
+        margin: 1em 0 0 0.5em;
+    }
+
+    header section{
+        width: 95%;
+        float: left;
+        margin: 2em 0 0 0.5em;
+        font-size: 20px;
+    }
+
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+main img{
+    width: 40%;
+    margin: -20em 0 0 45em;
+   
+}
+
+main section{
+    margin-top: 3em;
+    font-size: 20px;
+    color: rgb(77, 73, 68);
+    margin-left: 5em;
+}
+
+main section h2{
+    margin-top: 2em;
+}
+
+
+
+@media all and (max-width: 600px){
+    main{
+        float: left;
+        width: 100%;
+        margin: 0;
+        background-color: rgb(242, 237, 230);
+    }
+
+    main .models{
+        float: left;
+        width: 95%;
+        margin: 0 0 0 0.5em;
+        
+    }
+
+    main section{
+        float: left;
+        width: 100%;
+        margin: 0 0 0 1em;
+    }
+}
+
+.contact{
+    background-color: rgb(199, 127, 101)!important;
+    width: 90%;
+    margin-left: 3em;
+}
+.head{
+    margin: 5em 0 0 3em;
+    font-size: 25px;
+}
+
+.head span{
+    color: white;
+}
+
+.contact form article{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    margin: 3em 0 5em 4em;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.contact form article input{
+    margin-top: 1em;
+    border: none;
+    padding: 5px 30px;
+}
+
+.contact .address{
+    margin: -18.7em 0 5em 20em;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.address h4{
+    font-size: 23px;
+}
+
+.opening{
+    margin: -20.8em 0 5em 40em;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.opening h4{
+    font-size: 23px;
+}
+
+.address, .opening, article{
+    display: block;
+    padding-bottom: 5em;
+}
+
+.contact h4{
+    color: white;
+}
+@media all and (max-width: 600px){
+    .contact{
+        width: 95%;
+        float: left;
+        margin: 0;
+        margin-top: 3em;
+        margin-left: 0.5em;
+    }
+
+    .contact .head{
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+
+    .contact form article{
+        width: 50%;
+        float: left;
+        margin: 0 0 0 2.5em;
+    }
+
+    .contact .address{
+        width: 100%;
+        float: left;
+        margin: -3em 0 0 2em;
+        font-size: 25px;
+    }
+
+    .contact .opening{
+        width: 100%;
+        float: left;
+        margin: -5em 0 0 2em;
+        font-size: 25px;
+    }
+
+    body{
+       
+        margin: 0;
+    }
+}
