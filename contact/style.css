@@ -44,7 +44,7 @@ header section p{
     }
 
     header h1{
-        width: 100%;
+        width: 70%;
         float: left;
         margin: 0.5em 0 0 1.5em;
        
@@ -109,7 +109,7 @@ main section h2{
 
     main section{
         float: left;
-        width: 100%;
+        width: 90%;
         margin: 0 0 0 1em;
     }
 }
@@ -192,14 +192,14 @@ main section h2{
     }
 
     .contact .address{
-        width: 100%;
+        width: 80%;
         float: left;
         margin: -3em 0 0 2em;
         font-size: 25px;
     }
 
     .contact .opening{
-        width: 100%;
+        width: 80%;
         float: left;
         margin: -5em 0 0 2em;
         font-size: 25px;
