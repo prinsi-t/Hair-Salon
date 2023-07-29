@@ -107,7 +107,7 @@ main span:hover{
     main{
         background-size: contain;
         width: 100%;
-        margin-left: 0.3em;
+        margin-left: 0.5em;
         margin-right: 0;
     }
 
@@ -124,15 +124,16 @@ main span:hover{
     }
 
     main span{
-        width: 70%;
+        width: 50%;
         margin-left: 2em;
         margin-top: -1em;
     }
 
     main h1{
-        margin-top: 2em;
+        margin-top: 5em;
         margin-left: 1em;
-        font-size: 40px;
+        font-size: 35px;
+       
     }
 }
 
@@ -159,7 +160,7 @@ main span:hover{
         float: left;
         width: 80%;
         margin: 0;
-        margin-top: -7em;
+        margin-top: -2em;
         margin-left: 2em;
         margin-right: 0;
     }
@@ -234,13 +235,13 @@ article h2{
     .beauty p{
         margin: 0;
         font-size: 18px;
-        margin-left: 2em;
+        margin-left: 1.5em;
         margin-top: 1em;
         margin-bottom: 1em;
     }
 
     .beauty h2{
-        margin-left: 1em;
+        
         margin-top: 1em;
     }
 
@@ -248,31 +249,31 @@ article h2{
         margin: 0;
         float: left;
         width: 100%;
-        margin-left: -0.5em;
+        margin-left: -0.3em;
     }
 
     .bear{
         float: left;
-        width: 85%;
+        width: 90%;
         margin: 0;
-        margin-left: 1em;
+        margin-left: 0.7em;
         margin-top: 1em;
     }
 
     .quality{
         float: left;
-        width: 85%;
+        width: 90%;
         margin: 0;
         margin-top: 1em;
-        margin-left: 1em;
+        margin-left: 0.7em;
     }
 
     .products{
         float: left;
-        width: 85%;
+        width: 90%;
         margin: 0;
         margin-top: 1em;
-        margin-left: 1em;
+        margin-left: 0.7em;
     }
 }
 
@@ -330,11 +331,16 @@ article h2{
 
     .bob p,h2,span{
         float: left;
-        width: 80%;
+        width: 90%;
         margin: 0;
         margin-top: 1em;
         margin-left: 2em;
         font-size: 18px;
+    }
+
+    .bob p{
+        font-size: 15px;
+        margin-left: 2.3em;
     }
 
     .bob h2{
@@ -346,7 +352,7 @@ article h2{
     }
 
     .bob .more{
-        width: 50%;
+        width: 40%;
         margin-left: 2em;
         margin-top: 1em;
     }
@@ -356,7 +362,7 @@ article h2{
         width: 85%;
         margin: 0;
         margin-top: 1em;
-        margin-left: 1.3em;
+        margin-left: 2.1em;
     }
 }
 
@@ -450,6 +456,7 @@ hr{
         margin-top: 2em;
         margin-left: 3em;
         margin-right: 0;
+       
     }
 
     .sect1{
@@ -536,7 +543,7 @@ hr{
     #stylist h2{
         font-size: 30px;
         margin: 1em 0 0 0;
-        
+        color: rgb(95, 66, 51);
     }
 }
 
@@ -586,9 +593,10 @@ hr{
     .halo h3{
         width: 90%;
         margin: 0;
-        margin-top: 0.5em;
+        margin-top: 1em;
         margin-left: 1em;
         margin-bottom: 1em;
+        font-size: 30px;
     }
 
     .halo span{
@@ -633,7 +641,7 @@ hr{
 
 @media all and (max-width: 600px){
     .blonde img{
-        margin-top: 15em;
+        margin-top: 12em;
         width: 350px;
         
     }
@@ -663,7 +671,7 @@ hr{
 
     .mayo h4{
         margin-bottom: 1em;
-         margin-top: -2em;
+         margin-top: -3em;
     }
 
     .lastOnes .items img{
